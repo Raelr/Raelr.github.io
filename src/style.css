@@ -15,6 +15,17 @@
     margin: 2.5%;
 }
 
+.project-gallery-div {
+    float: left;
+    width: 40%;
+    padding-bottom: 1%;
+    height: auto;
+    text-align: center;
+    margin: 2.5%;
+    background-color: #191a19;
+    border-radius: 5%;
+}
+
 .header-text {
     color: white;
     font-family: 'Courier New'; 
@@ -32,5 +43,12 @@
     color: white;
     font-family: 'Courier New';
     font-size: 30px;
+    text-align: center;
+}
+
+.text-standard-small {
+    color: white;
+    font-family: 'Courier New';
+    font-size: 20px;
     text-align: center;
 }
