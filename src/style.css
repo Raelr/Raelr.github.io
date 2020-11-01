@@ -1,0 +1,36 @@
+.header-section {
+    border: 2px solid grey;
+    padding: 5%;
+    background-color: black;
+    overflow: auto;
+    width: 70%;
+    margin: auto;
+}
+
+.inner-div {
+    float: left;
+    width: 42.5%;
+    height: auto;
+    text-align: center;
+    margin: 2.5%;
+}
+
+.header-text {
+    color: white;
+    font-family: 'Courier New'; 
+    font-size: 75px;
+}
+
+.header-text2 {
+    color: white;
+    font-family: 'Courier New';
+    text-align: center;
+    font-size: 50px;
+}
+
+.text-standard {
+    color: white;
+    font-family: 'Courier New';
+    font-size: 30px;
+    text-align: center;
+}
