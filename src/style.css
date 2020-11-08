@@ -46,6 +46,13 @@
     font-size: 30px;
 }
 
+.text-standard-center {
+    color: white;
+    font-family: 'Courier New';
+    font-size: 30px;
+    text-align: center;
+}
+
 .text-standard-small {
     color: white;
     font-family: 'Courier New';
@@ -92,4 +99,12 @@
     background-color: rgb(83, 77, 77)
 }
 
-
+.experience_section {
+    width: 40%;
+    padding: 2%;
+    margin: 3%;
+    background-color: #141414;
+    border-radius: 2%;
+    border: 2px solid grey;
+    overflow: auto;
+}
