@@ -18,21 +18,15 @@
                     </a>
                 </li>
                 <li>
-                    <a class="nav-bar-block" href=#about>
+                    <a class="nav-bar-block" href=#Introduction>
                         <i class="fas fa-address-card"></i>
-                        About
+                        Introduction
                     </a>
                 </li>
                 <li>
-                    <a class="nav-bar-block" href="#experience">
-                        <i class="fas fa-briefcase"></i>
-                        Experience
-                    </a>
-                </li>
-                <li>
-                    <a class="nav-bar-block" href=#projects>
-                        <i class="fas fa-project-diagram"></i>
-                        Projects
+                    <a class="nav-bar-block" href=#Chapter-one>
+                        <i class="fas fa-address-card"></i>
+                        Chapter 1
                     </a>
                 </li>
                 <li>
@@ -90,25 +84,67 @@
                 interested by the concept, but are overwhelmed by the mathematics a language behind it.
             </p>
         </div>
-        <div class="header-section">
+        <div id="Introduction" class="header-section">
             <h2 class="header-text2">
                 Introduction
             </h2>
             <p class="text-standard">
+                In November 2019, I was approached by my professor with an offer to work on an interesting project. 
+                The Quantum computing department was looking for a way to present quantum computing to prospective 
+                students without overwhelming them with numbers, equations, and odd terminology. This presented an 
+                interesting problem: how can we make quantum computing more accessible to students? More than that, 
+                how can we present it in a manner that doesn't dilute the concept, but also keeps it simple enough
+                to understand? 
+            </p>
+            <p class="text-standard">
+                The result of these discussions was a 5 week project to put together a basic prototype of a quantum
+                based game. I knew very little of quantum computing at this point, and was required to learn on the 
+                job. The result was a hastily put together simulation which, whilst imperfect, was able to mimic 
+                the basic properties of a quantum circuit. 
+            </p>
+            <p class="text-standard">
                 The purpose of this document is to try and note down all the essential details required to 
                 have a cursory understanding of quantum computing. In the five weeks in which I worked on this 
                 project, I encountered a myriad of obstacles pertaining to the accessibility of information and 
-                knowledge in the quantum area. I would often try and find an answer to some problem, and be faced 
+                knowledge in the quantum area. I would often try and find an answer to some problem and be faced 
                 with pages of unintelligible equations and mathematical jargon. This made the task of understanding 
                 the processes behind quantum computing almost impossible, and felt more like I was deciphering an 
                 alien language than understanding a scientific concept. 
             </p>
             <p class="text-standard">
-                This document is therefore my attempt to aggregate all the pieces of knowledge which I have gained 
-                over the last five weeks and compile them into an easy to understand ‘manual’ of sorts. The hope is 
+                This document is therefore my attempt to aggregate all the pieces of knowledge which I gained 
+                over those five weeks and compile them into an easy to understand ‘manual’ of sorts. The hope is 
                 that anyone wishing to pick up where I left off can have a simple guide which was written specifically 
                 for them. It is my hope that I can try and explain quantum computing in a manner that can be understood 
                 by those outside of the mathematical space.
+            </p>
+        </div>
+        <div id="Chapter-one" class="header-section">
+            <h2 class="header-text2">Chapter 1 - What is Quantum Computing?</h2>
+            <p class="text-standard">
+                I can’t really explain fully what quantum computing really is, but I can explain 
+                (to a certain extent) what it does. A simple (but somewhat unhelpful) explanation 
+                can be summed as follows: Quantum computing is a system whereby calculations can 
+                be made using the probabilities of an object’s state, rather than its actual measured 
+                state. Whereas a classical computer uses classical bits (1 or 0) as their basic unit 
+                of measurement, a quantum computer uses quantum bits (or qubits) which range BETWEEN 
+                1 and 0. As such, a qubit can be any number between 1 and 0 (such as 0.5 or 0.25). 
+            </p>
+            <p class="text-standard">
+                A qubit’s value does not represent a concrete value, but rather a probability of what 
+                the value WILL be. The closer the value is to 0, the higher the chance is of it defaulting 
+                to 0 and vice versa for the proximity to 1. These qubits keep the probabilities stored 
+                within up until the point where they are measured. When this occurs, the qubits immediately 
+                switch to either 1 or 0, depending on the probabilities stored within. As such, a qubit which 
+                stores a value of 0.5 will have exactly 50% chance to turn into a 1 or a 0, while a qubit of 0.75 
+                as a 75% of becoming a 1 and 25% chance of becoming a 0. 
+            </p>
+            <p class="text-standard">
+                An unmeasured qubit cannot be fully used by a computer, and must be measured before it can be 
+                utilised for data. As such, a lot of the work that quantum computers do is in preprocessing - where 
+                qubits are put through mathematical filters and then converted to classical bits once the main 
+                processes are done. The result is a data unit which can store a lot more data than a classical bit, 
+                and has far more flexibility and utility. 
             </p>
         </div>
     </body>
